@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://e1w2vm6kgqh6"]
+
+[ext_resource type="Script" uid="uid://ct3nc2ujyb5i0" path="res://Scripts/pat_bunny.gd" id="1_y5ld6"]
+[ext_resource type="Texture2D" uid="uid://dgm6whsaqnhxf" path="res://Assets/Sprites/hand_spr.png" id="2_y5ld6"]
+[ext_resource type="Texture2D" uid="uid://dp5jthiprsnq5" path="res://Assets/Sprites/House/rosy1_spr.png" id="4_syjf8"]
+[ext_resource type="Script" uid="uid://b8oymao5p7780" path="res://Scripts/hand.gd" id="4_wenuk"]
+
+[node name="pat bunny" type="Node2D" unique_id=1910286550]
+script = ExtResource("1_y5ld6")
+
+[node name="hand" type="Sprite2D" parent="." unique_id=511646998]
+z_index = 1
+position = Vector2(863, 63)
+rotation = 3.1415927
+texture = ExtResource("2_y5ld6")
+script = ExtResource("4_wenuk")
+
+[node name="Button" type="Button" parent="." unique_id=1280360238]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="bunny" type="Sprite2D" parent="Button" unique_id=1580579204]
+position = Vector2(574, 325.49997)
+scale = Vector2(1.7074625, 1.7192513)
+texture = ExtResource("4_syjf8")
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=521063603]
+offset_left = 1071.0
+offset_top = 155.0
+offset_right = 1128.0
+offset_bottom = 492.0
+step = 10.0
+fill_mode = 3
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

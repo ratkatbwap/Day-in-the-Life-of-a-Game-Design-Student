@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c3xh4kc577o1v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ukgyp"]
+albedo_color = Color(0.69803923, 0.27450982, 0.07450981, 1)
+
+[node name="Node3D" type="Node3D" unique_id=1919681612]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1678157477]
+transform = Transform3D(1, 0, 0, 0, 0.8396556, 0, 0, 0, 0.8431643, 0, 0.4148019, -0.0129399)
+use_collision = true
+size = Vector3(1, 0.11633301, 1)
+material = SubResource("StandardMaterial3D_ukgyp")
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=1589851360]
+transform = Transform3D(1, 0, 0, 0, -3.6855884e-08, -0.8396556, 0, 0.8431643, -3.670251e-08, 0, 0.8725522, -0.3858042)
+use_collision = true
+size = Vector3(1, 0.11633301, 1.1573486)
+material = SubResource("StandardMaterial3D_ukgyp")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=931848725]
+transform = Transform3D(1, 0, 0, 0, 0.8396556, 0, 0, 0, 0.8431643, 0.3777771, 0.08803502, 0.29856363)
+use_collision = true
+size = Vector3(0.16217041, 0.761734, 0.13024902)
+material = SubResource("StandardMaterial3D_ukgyp")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=992136340]
+transform = Transform3D(1, 0, 0, 0, 0.8396556, 0, 0, 0, 0.8431643, -0.40696752, 0.08803502, 0.29856363)
+use_collision = true
+size = Vector3(0.16217041, 0.761734, 0.13024902)
+material = SubResource("StandardMaterial3D_ukgyp")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=300477499]
+transform = Transform3D(1, 0, 0, 0, 0.8396556, 0, 0, 0, 0.8431643, 0.3777771, 0.08803502, -0.34670988)
+use_collision = true
+size = Vector3(0.16217041, 0.761734, 0.13024902)
+material = SubResource("StandardMaterial3D_ukgyp")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=1711767450]
+transform = Transform3D(1, 0, 0, 0, 0.8396556, 0, 0, 0, 0.8431643, -0.40696752, 0.08803502, -0.34670988)
+use_collision = true
+size = Vector3(0.16217041, 0.761734, 0.13024902)
+material = SubResource("StandardMaterial3D_ukgyp")

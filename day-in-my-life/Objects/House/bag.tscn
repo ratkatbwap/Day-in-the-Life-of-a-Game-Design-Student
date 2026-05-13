@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://brq0auigvew0x"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nd5ab"]
+albedo_color = Color(0.09411765, 0.5176471, 0.14117648, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_arnbu"]
+albedo_color = Color(1.6845763e-06, 0.36887768, 0.015004713, 1)
+
+[node name="Node3D" type="Node3D" unique_id=788198058]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=2036537272]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.053970337, 0, -0.22177124)
+use_collision = true
+size = Vector3(0.8920593, 1, 0.5564575)
+material = SubResource("StandardMaterial3D_nd5ab")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=55637260]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.043743134, 0.29203796, 0.0069712996)
+use_collision = true
+size = Vector3(0.7351608, 0.27944946, 0.1913147)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=445777924]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.043743134, -0.14994204, 0.0069712996)
+use_collision = true
+size = Vector3(0.7351608, 0.5078888, 0.1913147)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=77101955]
+transform = Transform3D(1, 0, 0, 0, 0.9663312, -0.25730148, 0, 0.25730148, 0.9663312, 0.25959444, -0.09061007, -0.8016108)
+use_collision = true
+size = Vector3(0.12848568, 0.7014818, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=856034842]
+transform = Transform3D(1, 0, 0, 0, 0.50383425, -0.86380035, 0, 0.86380035, 0.50383425, 0.25959444, 0.3102783, -0.5850887)
+use_collision = true
+size = Vector3(0.12848568, 0.3264866, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="." unique_id=813419266]
+transform = Transform3D(1, 0, 0, 0, -0.16267163, -0.98668027, 0, 0.98668027, -0.16267163, 0.25959444, -0.44087437, -0.6490874)
+use_collision = true
+size = Vector3(0.12848568, 0.45621204, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="." unique_id=1592627816]
+transform = Transform3D(-4.371139e-08, 1, -4.371139e-08, 0, -4.371139e-08, -1, -1, -4.371139e-08, 1.9106855e-15, -0.06746915, 0.66724527, -0.2956392)
+use_collision = true
+size = Vector3(0.12848568, 0.45621204, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="." unique_id=284787644]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.25722134, 0.55274534, -0.2956392)
+use_collision = true
+size = Vector3(0.12848568, 0.22721219, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="." unique_id=1623206102]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.12907067, 0.55274534, -0.2956392)
+use_collision = true
+size = Vector3(0.12848568, 0.22721219, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=314991456]
+transform = Transform3D(1, 0, 0, 0, 0.9663312, -0.25730148, 0, 0.25730148, 0.9663312, -0.35032862, -0.09061007, -0.8016108)
+use_collision = true
+size = Vector3(0.12848568, 0.7014818, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="." unique_id=632901651]
+transform = Transform3D(1, 0, 0, 0, 0.50383425, -0.86380035, 0, 0.86380035, 0.50383425, -0.35032862, 0.3102783, -0.5850887)
+use_collision = true
+size = Vector3(0.12848568, 0.3264866, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="." unique_id=1197417436]
+transform = Transform3D(1, 0, 0, 0, -0.16267163, -0.98668027, 0, 0.98668027, -0.16267163, -0.35032862, -0.44087437, -0.6490874)
+use_collision = true
+size = Vector3(0.12848568, 0.45621204, 0.062049866)
+material = SubResource("StandardMaterial3D_arnbu")

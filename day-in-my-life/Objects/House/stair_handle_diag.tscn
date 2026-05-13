@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dvryld20p68md"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tsbax"]
+albedo_color = Color(0.54509807, 0.31764707, 0.15686275, 1)
+
+[node name="Node3D" type="Node3D" unique_id=485169628]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=716436085]
+transform = Transform3D(0.8660254, -0.5, 0, 0.5, 0.8660254, 0, 0, 0, 1, 1.6071975, -0.20774639, -0.30517578)
+use_collision = true
+size = Vector3(3.4294434, 0.2446289, 0.38964844)
+material = SubResource("StandardMaterial3D_tsbax")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=225802872]
+transform = Transform3D(0.8660254, -0.5, 0, 0.5, 0.8660254, 0, 0, 0, 1, 1.4741763, 1.1985016, -0.30517578)
+use_collision = true
+size = Vector3(3.5726318, 0.2446289, 0.38964844)
+material = SubResource("StandardMaterial3D_tsbax")
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="." unique_id=342648887]
+transform = Transform3D(-3.8356763e-08, -1, 0, 0.8775004, -4.371139e-08, 0, 0, 0, 1, 2.5125299, 1.0457957, -0.30801392)
+use_collision = true
+size = Vector3(1.773262, 0.2446289, 0.21832275)
+material = SubResource("StandardMaterial3D_tsbax")
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="." unique_id=1001056476]
+transform = Transform3D(-3.8356763e-08, -1, 0, 0.8775004, -4.371139e-08, 0, 0, 0, 1, 1.8177404, 0.6280552, -0.30801392)
+use_collision = true
+size = Vector3(1.9055481, 0.2446289, 0.21832275)
+material = SubResource("StandardMaterial3D_tsbax")
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="." unique_id=1893427704]
+transform = Transform3D(-3.8356763e-08, -1, 0, 0.8775004, -4.371139e-08, 0, 0, 0, 1, 1.1385374, 0.24643713, -0.30801392)
+use_collision = true
+size = Vector3(1.8403473, 0.2446289, 0.21832275)
+material = SubResource("StandardMaterial3D_tsbax")
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="." unique_id=341651478]
+transform = Transform3D(-3.8356763e-08, -1, 0, 0.8775004, -4.371139e-08, 0, 0, 0, 1, 0.45729613, -0.14187428, -0.30801392)
+use_collision = true
+size = Vector3(1.7301178, 0.2446289, 0.21832275)
+material = SubResource("StandardMaterial3D_tsbax")

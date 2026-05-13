@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://c4537ckdyxuia"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pwhsi"]
+albedo_color = Color(0.75686276, 0.3764706, 0.20392157, 1)
+
+[node name="Node3D" type="Node3D" unique_id=337816691]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=199946842]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.47143555, 0)
+use_collision = true
+size = Vector3(1, 0.057128906, 1)
+material = SubResource("StandardMaterial3D_pwhsi")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=577550148]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5167408, 1.4013112, 0)
+use_collision = true
+size = Vector3(0.06652832, 3.8078842, 1)
+material = SubResource("StandardMaterial3D_pwhsi")
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=700409322]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48572326, 1.4003346, 0)
+use_collision = true
+size = Vector3(0.06652832, 3.805931, 1)
+material = SubResource("StandardMaterial3D_pwhsi")
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="." unique_id=1254974956]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.032732844, 1.4018548, -0.47414732)
+use_collision = true
+size = Vector3(0.06652832, 3.8089714, 1)
+material = SubResource("StandardMaterial3D_pwhsi")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=1254620858]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.39602023, 0)
+use_collision = true
+size = Vector3(1, 0.057128906, 1)
+material = SubResource("StandardMaterial3D_pwhsi")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=296150012]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.380288, 0)
+use_collision = true
+size = Vector3(1, 0.057128906, 1)
+material = SubResource("StandardMaterial3D_pwhsi")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=383023981]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2477438, 0)
+use_collision = true
+size = Vector3(1, 0.057128906, 1)
+material = SubResource("StandardMaterial3D_pwhsi")
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="." unique_id=1693177761]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.278449, 0)
+use_collision = true
+size = Vector3(1, 0.057128906, 1)
+material = SubResource("StandardMaterial3D_pwhsi")

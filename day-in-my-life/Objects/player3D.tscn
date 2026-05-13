@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://by3q3c4hn7np5"]
+
+[ext_resource type="Script" uid="uid://c8tjjpcia3l0s" path="res://Scripts/player_3d.gd" id="1_en5wt"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_aatrh"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_en5wt"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1375929269]
+transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, 0, 0, 0)
+script = ExtResource("1_en5wt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1794770714]
+shape = SubResource("CapsuleShape3D_aatrh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2095744814]
+mesh = SubResource("CapsuleMesh_en5wt")

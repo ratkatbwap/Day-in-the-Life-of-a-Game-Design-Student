@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://dio38b8vfowbg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_isw0y"]
+albedo_color = Color(0.84705883, 0.38039216, 0.22745098, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k21j3"]
+albedo_color = Color(0.60012007, 0.27586684, 0.19843996, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_acm3f"]
+albedo_color = Color(0.84705883, 0.38039216, 0.22745098, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qg005"]
+albedo_color = Color(1, 0, 0.3019608, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k8p66"]
+albedo_color = Color(0.17254902, 1, 0.23921569, 1)
+
+[node name="Node3D" type="Node3D" unique_id=596424404]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=665662299]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.055114746, 0.08633423, 0)
+use_collision = true
+size = Vector3(1.1102295, 1.4911499, 1)
+material = SubResource("StandardMaterial3D_isw0y")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1749821832]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.057113647, 0.5629622, 0.3921578)
+use_collision = true
+size = Vector3(0.92977905, 0.40090942, 0.31976318)
+material = SubResource("StandardMaterial3D_k21j3")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=149892257]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.057113647, 0.10476607, 0.3921578)
+use_collision = true
+size = Vector3(0.92977905, 0.40090942, 0.31976318)
+material = SubResource("StandardMaterial3D_k21j3")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=2025451532]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.057113647, -0.36306483, 0.3921578)
+use_collision = true
+size = Vector3(0.92977905, 0.40090942, 0.31976318)
+material = SubResource("StandardMaterial3D_k21j3")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1275479123]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.060189128, 0.579042, 0.6018512)
+radius = 0.048297394
+material = SubResource("StandardMaterial3D_acm3f")
+
+[node name="CSGSphere3D2" type="CSGSphere3D" parent="." unique_id=1897067105]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.060189128, 0.13144237, 0.6018512)
+radius = 0.048297394
+material = SubResource("StandardMaterial3D_acm3f")
+
+[node name="CSGSphere3D3" type="CSGSphere3D" parent="." unique_id=1112554578]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.060189128, -0.3352259, 0.6018512)
+radius = 0.048297394
+material = SubResource("StandardMaterial3D_acm3f")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=252755135]
+transform = Transform3D(0.9965756, 0, -0.082686454, 0, 1, 0, 0.082686454, 0, 0.9965756, -0.03961003, 0.8789654, 0.01533718)
+size = Vector3(0.4855957, 0.13742065, 0.6491089)
+material = SubResource("StandardMaterial3D_qg005")
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=292820326]
+transform = Transform3D(0.99328214, 0, 0.1157173, 0, 1, 0, -0.1157173, 0, 0.99328214, -0.07432211, 0.9902698, 0.034020923)
+size = Vector3(0.4003296, 0.06578064, 0.5863037)
+material = SubResource("StandardMaterial3D_k8p66")

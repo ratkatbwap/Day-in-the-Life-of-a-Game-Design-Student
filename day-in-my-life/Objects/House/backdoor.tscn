@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://ci4tgbb8d0vge"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_471kq"]
+albedo_color = Color(0.28235295, 1, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_er4om"]
+albedo_color = Color(0.8862745, 0.7254902, 0.1764706, 1)
+
+[node name="Node3D" type="Node3D" unique_id=1256602786]
+
+[node name="door6" type="CSGBox3D" parent="." unique_id=536098571]
+transform = Transform3D(-1.0776834, 0, -8.0356976e-08, 0, 0.8343769, 0, 9.421408e-08, 0, -0.91917664, -0.0012164116, -0.0029628277, -2.2881427)
+use_collision = true
+size = Vector3(0.13720703, 4.5858154, 2.4621582)
+material = SubResource("StandardMaterial3D_471kq")
+
+[node name="CSGCylinder3D" type="CSGBox3D" parent="door6" unique_id=897278847]
+transform = Transform3D(-4.3711385e-08, -0.9999999, -4.440892e-15, 0.9999999, -4.371139e-08, 0, 0, 8.881784e-16, 1, 0.07698846, -0.82007706, -0.95576966)
+size = Vector3(0.15612793, 0.37695313, 0.17358398)
+material = SubResource("StandardMaterial3D_er4om")
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="door6" unique_id=1484152597]
+transform = Transform3D(1.9106848e-15, 4.371138e-08, 0.9999999, 0.9999999, -4.3711385e-08, 0, 4.37114e-08, 0.9999999, -4.37114e-08, 0.21799517, -0.8115237, -0.84144235)
+radius = 0.118652344
+height = 0.47314453
+material = SubResource("StandardMaterial3D_er4om")
+
+[node name="door10" type="CSGBox3D" parent="." unique_id=701286080]
+transform = Transform3D(-1.0776834, 0, -8.0356976e-08, 0, 0.8343769, 0, 9.421408e-08, 0, -0.91917664, -0.0010786057, -0.0029628277, -0.008062363)
+use_collision = true
+size = Vector3(0.13720703, 4.5858154, 2.4621582)
+material = SubResource("StandardMaterial3D_471kq")
+
+[node name="CSGCylinder3D" type="CSGBox3D" parent="door10" unique_id=784766748]
+transform = Transform3D(-4.3711385e-08, -0.9999999, -7.1054274e-15, 0.9999999, -4.371139e-08, 0, 0, -1.4210855e-14, 1, 0.07698834, -0.82007694, 0.9380394)
+size = Vector3(0.15612793, 0.37695313, 0.17358398)
+material = SubResource("StandardMaterial3D_er4om")
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="door10" unique_id=204936489]
+transform = Transform3D(1.910685e-15, 4.371139e-08, 0.9999999, 0.9999999, -4.3711385e-08, 0, 4.37114e-08, 0.9999999, -4.3711395e-08, 0.21799481, -0.81152344, 0.8230516)
+radius = 0.118652344
+height = 0.47314453
+material = SubResource("StandardMaterial3D_er4om")

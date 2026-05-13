@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://7gabvgh85db"]
+
+[ext_resource type="Texture2D" uid="uid://covdurkm7ald5" path="res://Assets/Sprites/House/tv_spr.png" id="1_lc1oi"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_o3qbn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lc1oi"]
+size = Vector2(10.666667, 7.111111)
+
+[node name="Node2D" type="RigidBody2D" unique_id=1296431265]
+z_index = 1
+physics_material_override = SubResource("PhysicsMaterial_o3qbn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=525354979]
+position = Vector2(-7.1525574e-07, 4.7683716e-07)
+scale = Vector2(4.5, 4.5)
+shape = SubResource("RectangleShape2D_lc1oi")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=969919625]
+z_index = -1
+texture = ExtResource("1_lc1oi")
