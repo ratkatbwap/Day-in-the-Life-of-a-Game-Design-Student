@@ -114,9 +114,9 @@ texture = ExtResource("2_fqder")
 
 [node name="collectibles" type="Node3D" parent="." unique_id=274970228]
 
-[node name="bag" parent="collectibles" unique_id=1422921426 node_paths=PackedStringArray("collectable") instance=ExtResource("17_n7tc3")]
+[node name="bag" parent="collectibles" unique_id=1422921426 node_paths=PackedStringArray("house") instance=ExtResource("17_n7tc3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.98281, -6.508369, 1.1387954)
-collectable = NodePath("../laptop")
+house = NodePath("../..")
 
 [node name="CollisionShape3D" parent="collectibles/bag" index="0" unique_id=301665855]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.070962906, 0, -0.2822528)
@@ -125,9 +125,9 @@ shape = SubResource("BoxShape3D_j8ewn")
 [node name="Node3D" parent="collectibles/bag" unique_id=788198058 instance=ExtResource("18_3xqwk")]
 transform = Transform3D(-0.23999918, 0, -0.5561458, 0, 0.6325839, 0, 0.5027171, 0, -0.26550627, -0.23532867, 0, -0.21896982)
 
-[node name="chips" parent="collectibles" unique_id=2111523653 node_paths=PackedStringArray("collectable") instance=ExtResource("17_n7tc3")]
+[node name="chips" parent="collectibles" unique_id=2111523653 node_paths=PackedStringArray("house") instance=ExtResource("17_n7tc3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3640902, -5.6925964, 3.2521446)
-collectable = NodePath(".")
+house = NodePath("../..")
 
 [node name="CollisionShape3D" parent="collectibles/chips" index="0" unique_id=301665855]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17993164, -0.07287598, 0.0018310547)
@@ -136,9 +136,9 @@ shape = SubResource("BoxShape3D_v0oqu")
 [node name="Node3D" parent="collectibles/chips" unique_id=867897394 instance=ExtResource("19_5nig2")]
 transform = Transform3D(-0.9181424, 0, -0.39625058, 0, 1, 0, 0.39625058, 0, -0.9181424, 0, 0, 0)
 
-[node name="laptop" parent="collectibles" unique_id=146441455 node_paths=PackedStringArray("collectable") instance=ExtResource("17_n7tc3")]
+[node name="laptop" parent="collectibles" unique_id=146441455 node_paths=PackedStringArray("house") instance=ExtResource("17_n7tc3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7319943, 1.64069, -2.669972)
-collectable = NodePath(".")
+house = NodePath("../..")
 
 [node name="CollisionShape3D" parent="collectibles/laptop" index="0" unique_id=301665855]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.040771484, -0.29492188, 0.05810547)
