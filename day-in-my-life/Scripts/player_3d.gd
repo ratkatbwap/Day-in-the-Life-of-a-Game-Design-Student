@@ -30,19 +30,22 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	
+# Making the camera move with the mouse
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		rotate_y(-event.relative.x * SENSITIVITY)
 		$Camera3D.rotate_x(-event.relative.y * SENSITIVITY)
 		$Camera3D.rotation.x = clamp($Camera3D.rotation.x, deg_to_rad(-90), deg_to_rad(90))
 	
+	# Mouse is freed if Escape key is pressed
 	elif event.is_action_pressed("ui_cancel"):
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 		
+# Mouse is captured when the game starts
 func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
-
+# Changing the scene to the rabbit minigame once the player enters the Area3D
 func _on_area_3d_body_entered(body: Node3D) -> void:
 	if body is Player:
 		get_tree().change_scene_to_file("res://Scenes/pat_bunny.tscn")

@@ -1,3 +1,6 @@
+# This script is for a scrapped section of the game that is unused in the final assignment.
+# It was for player movement and playing the different animations for the character.
+
 extends CharacterBody2D
 
 const SPEED = 150.0
